@@ -1,4 +1,16 @@
 package com.scaler.splitwise.commands;
 
-public class UpdateProfileCommand {
+import org.springframework.stereotype.Component;
+
+@Component
+public class UpdateProfileCommand implements Command {
+    @Override
+    public void execute(String input) {
+
+    }
+
+    @Override
+    public boolean matches(String input) {
+        return false;
+    }
 }
